@@ -6,7 +6,7 @@ function headNode(linkedList, collection) {
   return collection[linkedList]
 }
 
-function next(head, collection){
+function next(node, collection){
   let nextAddress = node.next
   return collection[`${nextAddress}`]
 }
