@@ -6,8 +6,8 @@ function headNode(linkedList, collection) {
   return collection[linkedList]
 }
 
-function next(node, collection){
-  let nextAddress = node[1]
+function next(head, collection){
+  let nextAddress = head[1]
   // retrieve the address of the next element
   return collection[nextAddress]
 }
