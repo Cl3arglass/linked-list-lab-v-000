@@ -5,3 +5,9 @@ function getName(node) {
 function headNode(linkedList, collection) {
   return collection[linkedList]
 }
+
+function next(node){
+  let nextAddress = node[1]
+  // retrieve the address of the next element
+  return collection[nextAddress]
+}
