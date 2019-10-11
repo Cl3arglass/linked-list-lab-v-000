@@ -3,5 +3,5 @@ function getName(node) {
 }
 
 function headNode(list) {
-  return list[0]
+  return list.first
 }
