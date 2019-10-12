@@ -29,7 +29,7 @@ function addressAt(index, linkedList, collection) {
    }
 }
 
-function indexAt(node, linkedList, collection) {
+function indexAt(node, collection, linkedList) {
   let currentNode = headNode(linkedList, collection);
   let currentIdx = 0
   while(currentNode != node){
