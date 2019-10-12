@@ -28,3 +28,13 @@ function addressAt(index, linkedList, collection) {
      return node.next
    }
 }
+
+function indexAt(node, linkedList, collection) {
+  let currentNode = headNode(linkedList, collection);
+  let currentIdx = 0
+  while(currentNode != node){
+    currentIdx++
+    currentNode = next(currentNode, collection)
+  }
+  return currentIdx
+}
